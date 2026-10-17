@@ -1,6 +1,324 @@
 const COST={"home": [6200, 7500], "garage": [3000, 4500], "description": "Robocze założenie do porównań: 6 200–7 500 zł brutto / m² części domowej poza garażem + 3 000–4 500 zł / m² garażu. Powierzchnia domowa obejmuje pomieszczenia techniczne, gdy pracownia je wyodrębnia; odstępstwa opisano w kartach. Poziom cen 2026, odniesienie: publikacje II kw. 2026. To model własny, nie stawki ofertowe pracowni; niższa stawka garażowa jest założeniem analitycznym. Brutto przy założeniu kompleksowej usługi mieszkaniowej, nie jednolitego VAT na osobne zakupy materiałów.", "sources": [{"label": "Extradom / SEKOCENBUD: poziom kosztów II kw. 2026, aktualizacja 24.08.2026", "url": "https://www.extradom.pl/porady/artykul-koszt-budowy-domu-ile-kosztuje-budowa-domu-jednorodzinnego"}, {"label": "ARCHAND: przykład ceny netto bez instalacji (IV kw. 2025)", "url": "https://www.archand.pl/projekty/mokka-18-plus/"}]};
 const PROJECTS=[
   {
+    "id": "abelia2modern",
+    "name": "Abelia 2 modern",
+    "studio": "ARCHAND",
+    "url": "https://www.archand.pl/projekty/abelia-2-modern/",
+    "image": "https://www.archand.pl/wp-content/uploads/Abelia-2-modern-widok-od-frontu-1-1-scaled.jpg",
+    "floor": "https://www.archand.pl/wp-content/uploads/Marketing-Abelia-2-modern-rzut-parteru.jpg",
+    "width": 18.45,
+    "depth": 14.35,
+    "area": 137.81,
+    "garageArea": 32.28,
+    "garage": 2,
+    "footprint": 212.65,
+    "noEaves": true,
+    "groundFloor": true,
+    "archived": false,
+    "status": "conditional",
+    "criteriaNote": "Bez okapów · wszystkie pokoje na parterze",
+    "program": "3 sypialnie + gabinet",
+    "roof": "35° · dwuspadowy + płaski nad garażem",
+    "structure": "Katalogowo strop żelbetowy. Zmiana na lekki sufit wymaga projektu.",
+    "areaNote": "133.13 m² mieszkalnej + 4.68 m² kotłowni; garaż osobno",
+    "dimensionNote": "Gabaryty odczytane z oficjalnego rzutu / obrysu; nie obliczane przez odjęcie od minimalnej działki.",
+    "orientation": "Wariant lustrzany daje możliwość skierowania narożnego salonu ku WNW i SSW, z garażem przy północno-wschodniej części domu. Wymaga pełnego wrysowania i sprawdzenia toru samochodu.",
+    "adaptation": "Najpierw potwierdzić dopuszczalność płaskiego dachu nad garażem w tym MPZP. Zmiana tej części dachu, stropu, płyty lub technologii IZODOM to adaptacja konstrukcyjna.",
+    "pros": [
+      "Trzy sypialnie i osobny gabinet na parterze.",
+      "Garaż dwustanowiskowy.",
+      "Dach bez okapów potwierdzony w materiałach autora.",
+      "Sypialnia rodziców z łazienką 5,49 m² i garderobą 4,93 m².",
+      "Salon + kuchnia 42,92 m²; gabinet 9,73 m²."
+    ],
+    "cons": [
+      "Płaski dach nad garażem: zgodność z MPZP niepotwierdzona.",
+      "Strop żelbetowy zamiast preferowanego lekkiego sufitu.",
+      "Kuchnia 9,10 m²; garaż 32,28 m² raczej kompaktowy dla dwóch dużych aut."
+    ],
+    "verdict": "Nowy mocny kandydat funkcjonalny: gabinet 9,73 m², łazienka i garderoba rodziców. Obrys mieści się; warunek to dach garażu.",
+    "fitEvidence": "Test pełnego prostokąta 18,45 × 14,35 m: znaleziono położenie z minimalnym zapasem ok. 0,39 m do obwiedni. Nie sprawdza to bramy i zgodności dachu."
+  },
+  {
+    "id": "mokka18modernplus2",
+    "name": "Mokka 18 modern plus 2",
+    "studio": "ARCHAND",
+    "url": "https://www.archand.pl/projekty/mokka-18-modern-plus-2/",
+    "image": "https://www.archand.pl/wp-content/uploads/Mokka-18-modern-plus-2-widok-od-frontu-1024x683.jpg",
+    "floor": "https://www.archand.pl/wp-content/uploads/Mokka-18-modern-plus-2-rzut-parteru.jpg",
+    "width": 17.45,
+    "depth": 16.2,
+    "area": 144.28,
+    "garageArea": 32.09,
+    "garage": 2,
+    "footprint": 218.43,
+    "noEaves": true,
+    "groundFloor": true,
+    "archived": false,
+    "status": "conditional",
+    "criteriaNote": "Bez okapów · wszystkie pokoje na parterze",
+    "program": "3 sypialnie + gabinet",
+    "roof": "35° · dwuspadowy + płaski nad garażem",
+    "structure": "Katalogowo strop żelbetowy. Zmiana na lekki sufit wymaga projektu.",
+    "areaNote": "140 m² mieszkalnej + 4.28 m² kotłowni; garaż osobno",
+    "dimensionNote": "Gabaryty odczytane z oficjalnego rzutu / obrysu; nie obliczane przez odjęcie od minimalnej działki.",
+    "orientation": "Wariant lustrzany daje możliwość skierowania narożnego salonu ku WNW i SSW, z garażem przy północno-wschodniej części domu. Wymaga pełnego wrysowania i sprawdzenia toru samochodu.",
+    "adaptation": "Najpierw potwierdzić dopuszczalność płaskiego dachu nad garażem w tym MPZP. Zmiana tej części dachu, stropu, płyty lub technologii IZODOM to adaptacja konstrukcyjna.",
+    "pros": [
+      "Trzy sypialnie i osobny gabinet na parterze.",
+      "Garaż dwustanowiskowy.",
+      "Dach bez okapów potwierdzony w materiałach autora.",
+      "Salon + kuchnia 49,26 m²; gabinet 8,20 m².",
+      "Prywatna łazienka 4,89 m² i garderoba 3,90 m²."
+    ],
+    "cons": [
+      "Autor oznacza projekt jako koncepcyjny / brak w magazynie; termin dokumentacji wymaga potwierdzenia.",
+      "Płaski dach nad garażem: zgodność z MPZP niepotwierdzona.",
+      "Strop żelbetowy zamiast preferowanego lekkiego sufitu."
+    ],
+    "verdict": "Największa strefa dzienna wśród nowych wersji Mokki i apartament rodziców. Uwaga: projekt koncepcyjny, nie gotowa dokumentacja.",
+    "fitEvidence": "Test pełnego prostokąta 17,45 × 16,20 m: znaleziono położenie z minimalnym zapasem ok. 0,50 m do obwiedni. Osobno trzeba sprawdzić wjazd i dach."
+  },
+  {
+    "id": "mokka18modern",
+    "name": "Mokka 18 modern",
+    "studio": "ARCHAND",
+    "url": "https://www.archand.pl/projekty/mokka-18-modern/",
+    "image": "https://www.archand.pl/wp-content/uploads/Mokka-18-modern-widok-od-frontu-2-scaled.jpg",
+    "floor": "https://www.archand.pl/wp-content/uploads/Mokka-18-modern-rzut-parteru.jpg",
+    "width": 14.45,
+    "depth": 15.9,
+    "area": 114.3,
+    "garageArea": 32.09,
+    "garage": 2,
+    "footprint": 183.35,
+    "noEaves": true,
+    "groundFloor": true,
+    "archived": false,
+    "status": "conditional",
+    "criteriaNote": "Bez okapów · wszystkie pokoje na parterze",
+    "program": "3 sypialnie + gabinet",
+    "roof": "35° · dwuspadowy + płaski nad garażem",
+    "structure": "Katalogowo strop żelbetowy. Zmiana na lekki sufit wymaga projektu.",
+    "areaNote": "110 m² mieszkalnej + 4.3 m² kotłowni; garaż osobno",
+    "dimensionNote": "Gabaryty odczytane z oficjalnego rzutu / obrysu; nie obliczane przez odjęcie od minimalnej działki.",
+    "orientation": "Wariant lustrzany daje możliwość skierowania narożnego salonu ku WNW i SSW, z garażem przy północno-wschodniej części domu. Wymaga pełnego wrysowania i sprawdzenia toru samochodu.",
+    "adaptation": "Najpierw potwierdzić dopuszczalność płaskiego dachu nad garażem w tym MPZP. Zmiana tej części dachu, stropu, płyty lub technologii IZODOM to adaptacja konstrukcyjna.",
+    "pros": [
+      "Trzy sypialnie i osobny gabinet na parterze.",
+      "Garaż dwustanowiskowy.",
+      "Dach bez okapów potwierdzony w materiałach autora.",
+      "Niewielka zabudowa 183,35 m² zostawia więcej miejsca."
+    ],
+    "cons": [
+      "Płaski dach nad garażem: zgodność z MPZP niepotwierdzona.",
+      "Strop żelbetowy zamiast preferowanego lekkiego sufitu.",
+      "Gabinet tylko 6,88 m²; salon z kuchnią 39,79 m².",
+      "Brak prywatnej łazienki i garderoby rodziców."
+    ],
+    "verdict": "Kompaktowa parterówka bez okapów: pełny program i dwa auta. Dobry trop, jeśli zaakceptujesz mały gabinet i rozwiążesz kwestię dachu garażu.",
+    "fitEvidence": "Bryła 14,45 × 15,90 m jest mniejsza od wcześniej sprawdzonego prostokąta Mokki 15,65 × 15,90 m; mieści się w tej samej obwiedni. Dokładne ustawienie bramy wymaga projektu."
+  },
+  {
+    "id": "bakopachg2e",
+    "name": "Dom w bakopach (G2E)",
+    "studio": "ARCHON+",
+    "url": "https://www.archon.pl/projekty-domow/projekt-dom-w-bakopach-g2e-mbb9288266b05e",
+    "image": null,
+    "floor": "https://www.archon.pl/gotowe-projekty-domow-obrys/72202?file_id=257&file_name=archon-obrys-dom-w-bakopach-g2e",
+    "width": 15,
+    "depth": 21.25,
+    "area": 143.88,
+    "garageArea": 38.01,
+    "garage": 2,
+    "footprint": 227.89,
+    "noEaves": true,
+    "groundFloor": true,
+    "archived": true,
+    "status": "reject",
+    "criteriaNote": "Bez okapów · wszystkie pokoje na parterze",
+    "program": "3 sypialnie + gabinet",
+    "roof": "35° · dwuspadowy",
+    "structure": "Katalogowo strop żelbetowy. Zmiana na lekki sufit wymaga projektu.",
+    "areaNote": "133.35 m² mieszkalnej + 10.53 m² kotłowni; garaż osobno",
+    "dimensionNote": "Gabaryty odczytane z oficjalnego rzutu / obrysu; nie obliczane przez odjęcie od minimalnej działki.",
+    "orientation": "Brak zaakceptowanego ustawienia na działce.",
+    "adaptation": "Skrócenie bryły oznacza istotną przebudowę układu.",
+    "pros": [
+      "Trzy sypialnie i osobny gabinet na parterze.",
+      "Garaż dwustanowiskowy.",
+      "Dach bez okapów potwierdzony w materiałach autora."
+    ],
+    "cons": [
+      "Bryła 15 × 21,25 m — za długa dla roboczej obwiedni.",
+      "Strop żelbetowy."
+    ],
+    "verdict": "Bez okapów i z pełnym układem pokoi, lecz długość 21,25 m powoduje odrzucenie z bieżącej selekcji działki.",
+    "fitEvidence": "Dłuższy bok przekracza oba nominalne wymiary obwiedni. Nie uznajemy projektu za mieszczący się; brak dokładnego testu nieregularnego rzutu i obrotów."
+  },
+  {
+    "id": "nh714g2w1",
+    "name": "NewHouse 714 G2 w1",
+    "studio": "Modern House",
+    "url": "https://modernhouse-projekty.pl/projekt/newhouse-714-g2-w1/",
+    "image": "https://modernhouse-projekty.pl/wp-content/uploads/2024/01/Gotowy_projekt_domu_w_stylu_nowoczesnej-stodoly_Modern_House-newHouse_714_G2_w1_1_projekt_malego_domu_z_cztererma_sypialniami-min-1920x960.webp",
+    "floor": "https://modernhouse-projekty.pl/wp-content/uploads/2024/01/MH-NH-714-G2-W1-KONCEPCJA-PARTER-MINI-min-968x1024.webp",
+    "width": 19.1,
+    "depth": 17.7,
+    "footprint": 200.57,
+    "area": 117.36,
+    "areaNote": "Powierzchnia użytkowa/podłóg bez garażu 117,36; zawiera kotłownię 2,80 m². Garaż oddzielnie.",
+    "garageArea": 36,
+    "garage": 2,
+    "roofAngle": 30,
+    "height": 5.9,
+    "noEaves": true,
+    "noEavesEvidence": "Opis autora: Dwuspadowy dach bez okapów obejmuje zarówno bryłę główną, jak i garaż.",
+    "groundFloor": true,
+    "program": "3 sypialnie + gabinet 9,44 m² + salon/jadalnia 28,84 + kuchnia 11,85",
+    "structure": "Strop żelbetowy wylewany; tradycyjna więźba, blacha na rąbek; rekuperacja.",
+    "orientation": "Na rzucie salon na prawym końcu głównej bryły, garaż poniżej prawej strony z bramą od lewej. Salon otwiera się na prawy taras; górna ściana salonu jest pełna. Obrót dający salon SW nie daje automatycznie garażu NE. Brak potwierdzonego narożnego przeszklenia salonu WNW+SSW.",
+    "pros": [
+      "Pełny program na parterze",
+      "Potwierdzony dach bez okapów nad domem i garażem",
+      "Garaż 2 auta"
+    ],
+    "cons": [
+      "Układ garażu i salonu nie realizuje jednocześnie żądanych narożników",
+      "Brak potwierdzonego dwuaspektowego przeszklenia salonu",
+      "Żelbetowy strop"
+    ],
+    "archived": false,
+    "status": "conditional",
+    "roof": "30° · dwuspadowy",
+    "criteriaNote": "Bez okapów · wszystkie pokoje na parterze",
+    "fitEvidence": "Nieregularny układ: podłużny dom i garaż odsunięty pod kątem prostym z zadaszonym przejściem. Bbox 19,10×17,70 wymaga testu faktycznej koperty. Nie potwierdzono dopasowania. Test prostokąta 19,10 × 17,70 m na siatce 5 cm nie znalazł ustawienia; nieregularny obrys może dać inny wynik.",
+    "adaptation": "Wymagane wrysowanie pełnego obrysu, dojazdu i kierunków okien; zmiana stropu lub technologii wymaga konstruktora.",
+    "verdict": "Dach bez okapów także nad garażem i pełny program. Nieregularny układ wymaga dokładnego sprawdzenia na działce."
+  },
+  {
+    "id": "mini3g1",
+    "name": "Stodoła Mini 3 G1 EKO",
+    "studio": "ArchDOM",
+    "url": "https://archdom.pl/produkt/stodola-mini-3-g1-eko/",
+    "image": null,
+    "floor": null,
+    "width": 19.02,
+    "depth": 9.05,
+    "area": 111.84,
+    "totalRoomsArea": 137.16,
+    "footprint": 172.03,
+    "garage": 1,
+    "garageArea": null,
+    "roofAngle": 40,
+    "height": 7.62,
+    "groundFloor": true,
+    "program": "Salon+kuchnia i 3 sypialnie; brak osobnego gabinetu.",
+    "noEaves": null,
+    "noEavesEvidence": "NIEPOTWIERDZONE dla konkretnego wariantu. Autor używa wizualizacji zastępczych Mini2G2; nie kwalifikować jako zweryfikowane bezokapowe bez odczytu elewacji/sekcji.",
+    "section": "https://archdom.pl/wp-content/uploads/2025/07/stodola_mini_2_G2_przek.webp",
+    "areaNote": "111,84 powierzchnia domu;137,16 wszystkich pomieszczeń. Różnica25,32 obejmuje garaż/pom.techniczne, nie zakładać że jest samym garażem.",
+    "structure": "Strop żelbetowy, tradycyjna więźba, dachówka ceramiczna/cementowa.",
+    "cons": [
+      "Brak gabinetu",
+      "G1",
+      "Brak potwierdzenia bezokapowości konkretnego wariantu",
+      "Dokumentacja na zamówienie"
+    ],
+    "archived": true,
+    "status": "conditional",
+    "roof": "40° · dwuspadowy",
+    "criteriaNote": "Brak okapów niepotwierdzony — tylko trop do weryfikacji",
+    "fitEvidence": "Płytki obrys 19,02×9,05 daje szansę ustawienia; brak testu faktycznej koperty.",
+    "adaptation": "Wymagane wrysowanie pełnego obrysu, dojazdu i kierunków okien; zmiana stropu lub technologii wymaga konstruktora.",
+    "orientation": "Nie potwierdzono położenia bramy i okien na tej działce.",
+    "pros": [
+      "Płytka, prosta bryła domu.",
+      "Katalogowy dach 40°."
+    ],
+    "verdict": "Trop rezerwowy: nie potwierdzono braku okapów dla dokładnie tego wariantu. Ukryty z głównej selekcji."
+  },
+  {
+    "id": "mini4bg",
+    "name": "Stodoła Mini 4 BG UNI EKO",
+    "studio": "ArchDOM",
+    "url": "https://archdom.pl/produkt/projekt-domu-stodola-mini-4-bg-uni-eko/",
+    "image": null,
+    "floor": null,
+    "width": 18.92,
+    "depth": 9.05,
+    "area": 133.63,
+    "totalRoomsArea": 133.63,
+    "footprint": 171.13,
+    "garage": 0,
+    "garageArea": 0,
+    "roofAngle": 40,
+    "height": 7.62,
+    "groundFloor": true,
+    "program": "Salon+kuchnia + 4 sypialnie; jedną można przeznaczyć na gabinet.",
+    "noEaves": null,
+    "noEavesEvidence": "NIEPOTWIERDZONE dla konkretnego wariantu. Autor otwarcie podaje użycie zastępczych wizualizacji Mini2G2; nie udawać aktualnych wizualizacji wariantu.",
+    "areaNote": "121,47m² domu;133,63m² wszystkich pomieszczeń. Do budżetu z technicznymi użyć133,63, dopiero po potwierdzeniu zakresu.",
+    "structure": "Strop żelbetowy, tradycyjna więźba, dachówka ceramiczna/cementowa.",
+    "cons": [
+      "Bez garażu",
+      "Bezokapowość wymaga potwierdzenia konkretnego wariantu",
+      "Brak właściwej wizualizacji autora; ilustracje zastępcze",
+      "Dokumentacja na zamówienie"
+    ],
+    "archived": true,
+    "status": "conditional",
+    "roof": "40° · dwuspadowy",
+    "criteriaNote": "Brak okapów niepotwierdzony — tylko trop do weryfikacji",
+    "fitEvidence": "Obrys18,92×9,05 potencjalnie mieści się; osobnego garażu nie sprawdzono. Elastyczne wejście od krótszej lub dłuższej elewacji.",
+    "adaptation": "Wymagane wrysowanie pełnego obrysu, dojazdu i kierunków okien; zmiana stropu lub technologii wymaga konstruktora.",
+    "orientation": "Nie potwierdzono położenia bramy i okien na tej działce.",
+    "pros": [
+      "Płytka, prosta bryła domu.",
+      "Katalogowy dach 40°."
+    ],
+    "verdict": "Trop rezerwowy: nie potwierdzono braku okapów dla dokładnie tego wariantu. Ukryty z głównej selekcji."
+  },
+  {
+    "id": "ar16",
+    "name": "AR-16 L",
+    "studio": "TeA Projekt",
+    "url": "https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-16-l/",
+    "area": 120.59,
+    "garageArea": 37.19,
+    "width": 18.2,
+    "depth": 17,
+    "footprint": 200.5,
+    "garage": 2,
+    "program": "3 sypialnie + gabinet",
+    "roof": "30° · dwuspadowy",
+    "status": "fit",
+    "verdict": "Najbliżej oczekiwanej formy i lekkiej konstrukcji; ustawienie bramy i widok na ogród są głównym kompromisem.",
+    "pros": [
+      "Duża strefa dzienna z kuchnią: około 49 m².",
+      "Gabinet 7,62 m² i garaż dwustanowiskowy 37,19 m².",
+      "Wiązary i sufit podwieszany zamiast stropu żelbetowego."
+    ],
+    "cons": [
+      "Salon nie otwiera się bezpośrednio na zachodni ogród w sprawdzonym ustawieniu.",
+      "Brama boczna wymaga skrętu; zmiana bramy na północną ścianę do oceny konstruktora.",
+      "Bardzo niewielki zapas obrysu; dach 30°, a nie preferowane 40°."
+    ],
+    "orientation": "Sprawdzona orientacja: długa oś WNW–ESE; salon z oknami NNE/SSW. Garaż przy NE, brama skierowana na zachód. Obrót o 90° nie ma potwierdzonego dopasowania.",
+    "adaptation": "Rozwiązać wjazd i przeszklenie ku ogrodowi. Zweryfikować zmianę pokrycia na ceramikę, składowanie na poddaszu i IZODOM.",
+    "areaNote": "157,78 m² sumy katalogowej minus 37,19 m² garażu; tabela pracowni zawiera niewielką rozbieżność 0,45 m² względem sumy kategorii, do potwierdzenia",
+    "fitEvidence": "Prostokąt 18,20 × 17,00 m przy x=32,70; y=4,10 mieści się w obwiedni. Minimalny zapas ok. 0,10 m — pomiar geodezyjny i pełny projekt mogą zmienić wynik.",
+    "image": "https://teaprojekt.pl/wp-content/uploads/2024/02/ar-16-l-front1-1200-80-n.webp",
+    "floor": "https://teaprojekt.pl/wp-content/uploads/2023/12/ar-16-l-rzut-800-n1a.webp",
+    "structure": "Silikaty + 20 cm ocieplenia; wiązary i sufit podwieszany; katalogowo blacha.",
+    "tags": "stodoła polecany",
+    "noEaves": true,
+    "groundFloor": true,
+    "archived": false,
+    "criteriaNote": "Bez okapów · parterowy · ocena wizualizacji autora"
+  },
+  {
     "id": "mokka",
     "name": "Mokka 18 plus",
     "studio": "ARCHAND",
@@ -14,7 +332,7 @@ const PROJECTS=[
     "program": "3 sypialnie + gabinet",
     "roof": "35° · dwa przenikające dachy dwuspadowe",
     "status": "fit",
-    "verdict": "Najlepszy punkt wyjścia dla układu pomieszczeń i salonu otwartego na ogród oraz południe.",
+    "verdict": "Wcześniej analizowany projekt. Ma okapy — poza wymaganiami. Nie należy do aktualnej selekcji.",
     "pros": [
       "Pełny program: salon z kuchnią, 3 sypialnie i gabinet.",
       "Kompaktowy obrys i dwustanowiskowy garaż.",
@@ -33,7 +351,11 @@ const PROJECTS=[
     "floor": "https://www.archand.pl/wp-content/uploads/Mokka-18-plus-rzut-parteru.jpg",
     "structure": "Ceramika, strop żelbetowy, drewniany dach; dopuszczone różne pokrycia.",
     "dimensionNote": "Wymiary odczytane z rzutu; nie wyliczane z minimalnej działki.",
-    "tags": "stodoła ogród polecany"
+    "tags": "stodoła ogród ",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Ma okapy — poza wymaganiami"
   },
   {
     "id": "abelia",
@@ -68,42 +390,12 @@ const PROJECTS=[
     "orientation": "Lustro warte wrysowania: tylny narożnik salonu WNW+SSW; garaż po wschodniej stronie frontu NNE. Nie stanowi zatwierdzenia dopasowania.",
     "fitEvidence": "Pełny prostokąt 18,45 × 12,35 m mieści się w obwiedni: przykładowo x=32,45; y=8,40; zapas min. 0,46 m. Ten test nie ustala właściwego położenia podjazdu.",
     "adaptation": "Adaptacja do płyty, IZODOM, pokrycia ceramicznego i lekkiego sufitu wymaga sprawdzenia konstrukcji.",
-    "verdict": "Nowy mocny kandydat: pełny program, dwa auta i stosunkowo płytka bryła. Warto wrysować obok Mokki.",
-    "tags": "stodoła nowy polecany"
-  },
-  {
-    "id": "ar16",
-    "name": "AR-16 L",
-    "studio": "TeA Projekt",
-    "url": "https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-16-l/",
-    "area": 120.59,
-    "garageArea": 37.19,
-    "width": 18.2,
-    "depth": 17,
-    "footprint": 200.5,
-    "garage": 2,
-    "program": "3 sypialnie + gabinet",
-    "roof": "30° · dwuspadowy",
-    "status": "fit",
-    "verdict": "Najbliżej oczekiwanej formy i lekkiej konstrukcji; ustawienie bramy i widok na ogród są głównym kompromisem.",
-    "pros": [
-      "Duża strefa dzienna z kuchnią: około 49 m².",
-      "Gabinet 7,62 m² i garaż dwustanowiskowy 37,19 m².",
-      "Wiązary i sufit podwieszany zamiast stropu żelbetowego."
-    ],
-    "cons": [
-      "Salon nie otwiera się bezpośrednio na zachodni ogród w sprawdzonym ustawieniu.",
-      "Brama boczna wymaga skrętu; zmiana bramy na północną ścianę do oceny konstruktora.",
-      "Bardzo niewielki zapas obrysu; dach 30°, a nie preferowane 40°."
-    ],
-    "orientation": "Sprawdzona orientacja: długa oś WNW–ESE; salon z oknami NNE/SSW. Garaż przy NE, brama skierowana na zachód. Obrót o 90° nie ma potwierdzonego dopasowania.",
-    "adaptation": "Rozwiązać wjazd i przeszklenie ku ogrodowi. Zweryfikować zmianę pokrycia na ceramikę, składowanie na poddaszu i IZODOM.",
-    "areaNote": "157,78 m² sumy katalogowej minus 37,19 m² garażu; tabela pracowni zawiera niewielką rozbieżność 0,45 m² względem sumy kategorii, do potwierdzenia",
-    "fitEvidence": "Prostokąt 18,20 × 17,00 m przy x=32,70; y=4,10 mieści się w obwiedni. Minimalny zapas ok. 0,10 m — pomiar geodezyjny i pełny projekt mogą zmienić wynik.",
-    "image": "https://teaprojekt.pl/wp-content/uploads/2024/02/ar-16-l-front1-1200-80-n.webp",
-    "floor": "https://teaprojekt.pl/wp-content/uploads/2023/12/ar-16-l-rzut-800-n1a.webp",
-    "structure": "Silikaty + 20 cm ocieplenia; wiązary i sufit podwieszany; katalogowo blacha.",
-    "tags": "stodoła polecany"
+    "verdict": "Wcześniej analizowany projekt. Ma okapy — poza wymaganiami. Nie należy do aktualnej selekcji.",
+    "tags": "stodoła nowy ",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Ma okapy — poza wymaganiami"
   },
   {
     "id": "ar17",
@@ -119,7 +411,7 @@ const PROJECTS=[
     "program": "3 sypialnie + gabinet",
     "roof": "30° / 40° · dwuspadowy",
     "status": "fit",
-    "verdict": "Dobry układ z większym gabinetem i luzem przed garażem, jeśli zaakceptujesz jedno stanowisko.",
+    "verdict": "Wcześniej analizowany projekt. Brak okapów niepotwierdzony. Nie należy do aktualnej selekcji.",
     "pros": [
       "Gabinet 9,13 m² i strefa dzienna około 48 m².",
       "Mniejsza głębokość bryły zostawia miejsce na podjazd.",
@@ -131,14 +423,18 @@ const PROJECTS=[
       "Powiększenie garażu do dwóch aut nie jest potwierdzoną lekką adaptacją."
     ],
     "orientation": "Obrót o 180°: garaż na NE z wjazdem od północy, patio salonu na SSW. Około 7,2 m przed bramą.",
-    "adaptation": "Bezpieczny kandydat przy akceptacji jednego auta. Sprawdzić okna ku ogrodowi oraz konstrukcję płyty/IZODOM.",
+    "adaptation": "Wcześniej analizowany wariant z garażem na jedno auto. Sprawdzić okna ku ogrodowi oraz konstrukcję płyty/IZODOM.",
     "areaNote": "132,61 m² z pomieszczeniem gospodarczym; w modelu garaż + komórka = 27,98 m² (sam garaż 22,93 m²)",
     "fitEvidence": "Prostokąt 17,35 × 14,88 m przy x=33,00; y=4,20 mieści się w obwiedni; minimalny zapas ok. 0,20 m.",
     "floor": "https://teaprojekt.pl/wp-content/uploads/2024/08/rzut-AR-17-p-800-new.webp",
     "structure": "Silikaty + 20 cm ocieplenia, wiązary, sufit podwieszany; dachówka betonowa.",
-    "tags": "stodoła polecany",
+    "tags": "stodoła ",
     "image": "https://teaprojekt.pl/wp-content/uploads/2024/04/ar-17-p-2-1200.webp",
-    "costGarageArea": 27.98
+    "costGarageArea": 27.98,
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Brak okapów niepotwierdzony"
   },
   {
     "id": "pomarancza",
@@ -173,8 +469,12 @@ const PROJECTS=[
     "orientation": "Obrót: front ESE, tyłWNW daje salon od ogrodu i boczne przeszklenieSSW po wyborze właściwego lustra. Wymaga sprawdzenia garażu i toru dojazdu odNE.",
     "fitEvidence": "Prostokąt po obrocie 18,50 × 12,50 m mieści się w obwiedni przy x=32,45; y=8,30; min. zapas 0,44 m. Pergola i tor dojazdu nie są objęte tym testem.",
     "adaptation": "Adaptacja do płyty, IZODOM, pokrycia ceramicznego i lekkiego sufitu wymaga sprawdzenia konstrukcji.",
-    "verdict": "Najciekawszy nowy kompromis z jednym autem: gabinet oraz sypialnia z łazienką i garderobą. Kluczowy problem to boczny wjazd.",
-    "tags": "stodoła master bedroom"
+    "verdict": "Wcześniej analizowany projekt. Ma okapy — poza wymaganiami. Nie należy do aktualnej selekcji.",
+    "tags": "stodoła master bedroom",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Ma okapy — poza wymaganiami"
   },
   {
     "id": "mg3b",
@@ -206,7 +506,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono docelowego ustawienia salonu i bramy na tej działce.",
     "fitEvidence": "Prostokąt po obrocie 17,18 × 16,43 m mieści się przy x=32,65; y=4,40; zapas min. 0,40 m. Kierunki okien i wjazd nie są potwierdzone.",
     "adaptation": "Wydzielenie gabinetu wymaga sprawdzenia światła dziennego i funkcji pomieszczeń. Nie uznajemy go za zapewniony w projekcie bazowym.",
-    "verdict": "Kompaktowa alternatywa z garażem na dwa auta i lekkim stropem. Trzeba znaleźć miejsce na gabinet."
+    "verdict": "Wcześniej analizowany projekt. Brak okapów niepotwierdzony. Nie należy do aktualnej selekcji.",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Brak okapów niepotwierdzony",
+    "tags": ""
   },
   {
     "id": "ka56",
@@ -240,7 +545,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono korzystnego ustawienia salonu i bramy względem ogrodu, słońca i wjazdu.",
     "fitEvidence": "Prostokąt 17,00 × 16,88 m mieści się przy x=32,45; y=4,20, z zapasem min. 0,17 m. To nie potwierdza układu pokoi ani wjazdu.",
     "adaptation": "Adaptacja do płyty, IZODOM, pokrycia ceramicznego i lekkiego sufitu wymaga sprawdzenia konstrukcji.",
-    "verdict": "Bardzo duży salon i dwa auta, ale katalog nie potwierdza spójnie wymaganej liczby sypialni. Dach wielospadowy odbiega od stodoły."
+    "verdict": "Wcześniej analizowany projekt. Ma okapy — poza wymaganiami. Nie należy do aktualnej selekcji.",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Ma okapy — poza wymaganiami",
+    "tags": ""
   },
   {
     "id": "domena",
@@ -273,7 +583,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono docelowego ustawienia salonu i bramy na tej działce.",
     "fitEvidence": "W teście prostokąta 20,26 × 10,55 m na siatce 5 cm nie znaleziono położenia w dwóch orientacjach osiowych. To nie dowód dla nieregularnego obrysu lub innych obrotów.",
     "adaptation": "Zmiany konstrukcji i układu wymagają oceny projektanta.",
-    "verdict": "Pełny program na parterze, lecz bardzo szeroka bryła i jedno auto. Wymaga dokładnego testu rzutu i uproszczenia antresoli."
+    "verdict": "Wcześniej analizowany projekt. Ma okapy — poza wymaganiami · poddasze / antresola. Nie należy do aktualnej selekcji.",
+    "noEaves": false,
+    "groundFloor": false,
+    "archived": true,
+    "criteriaNote": "Ma okapy — poza wymaganiami · poddasze / antresola",
+    "tags": ""
   },
   {
     "id": "tartufo",
@@ -305,7 +620,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono korzystnego ustawienia salonu i bramy względem ogrodu, słońca i wjazdu.",
     "fitEvidence": "Brak pełnej weryfikacji ustawienia budynku i podjazdu.",
     "adaptation": "Najpierw potwierdzić rzut i gabaryty; następnie wycenić zmianę dachu 25° do zakresu 30–45°. Nie jest to gotowy wybór dla działki.",
-    "verdict": "Rezerwowy trop z lekkim sufitem. Dach 25° wymaga zmiany, a gabaryty nie zostały zweryfikowane."
+    "verdict": "Wcześniej analizowany projekt. Brak okapów niepotwierdzony. Nie należy do aktualnej selekcji.",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Brak okapów niepotwierdzony",
+    "tags": ""
   },
   {
     "id": "winston",
@@ -338,7 +658,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono docelowego ustawienia salonu i bramy na tej działce.",
     "fitEvidence": "Bryła przekracza orientacyjne wymiary obwiedni; nie wykonano pełnego testu nieregularnego rzutu. Odrzucenie z selekcji, nie formalne orzeczenie niemożliwości.",
     "adaptation": "Skrócenie i dodanie gabinetu to znacznie większa zmiana niż lekka adaptacja.",
-    "verdict": "Duży garaż i lekki strop, ale bryła 23,25 m oraz brak gabinetu dyskwalifikują go z krótkiej listy."
+    "verdict": "Wcześniej analizowany projekt. Brak okapów niepotwierdzony. Nie należy do aktualnej selekcji.",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Brak okapów niepotwierdzony",
+    "tags": ""
   },
   {
     "id": "hk117",
@@ -371,7 +696,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono docelowego ustawienia salonu i bramy na tej działce.",
     "fitEvidence": "Wymiar 22,45 m obejmuje elementy wystające i zadaszenia. Nie dowodzi sam w sobie kolizji ścian; projekt odrzucony z krótkiej listy także za brak gabinetu i płaski dach.",
     "adaptation": "Potrzebna ocena płaskiego dachu garażu w MPZP i dużych zmian programu; nie rekomendujemy jako prostego dopasowania.",
-    "verdict": "Atrakcyjna stodoła do porównania stylistycznego. Duży gabaryt, brak gabinetu i płaski dach nad garażem wymagają zbyt wielu ustępstw."
+    "verdict": "Wcześniej analizowany projekt. Bez okapów · parterowy. Nie należy do aktualnej selekcji.",
+    "noEaves": true,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Bez okapów · parterowy",
+    "tags": ""
   },
   {
     "id": "kari",
@@ -403,7 +733,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono korzystnego ustawienia salonu i bramy względem ogrodu, słońca i wjazdu.",
     "fitEvidence": "281,30 m² przekracza ostrożnie przyjęty limit ok. 248 m²; brak weryfikacji wymiarów ścian. Podstawę limitu musi potwierdzić projektant.",
     "adaptation": "Zmniejszenie domu i podniesienie kąta dachu byłoby istotną przebudową projektu.",
-    "verdict": "Odrzucony w przyjętym wariancie: duża powierzchnia zabudowy i dach poza zakresem planu."
+    "verdict": "Wcześniej analizowany projekt. Ma okapy — poza wymaganiami. Nie należy do aktualnej selekcji.",
+    "noEaves": false,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Ma okapy — poza wymaganiami",
+    "tags": ""
   },
   {
     "id": "e4",
@@ -436,7 +771,12 @@ const PROJECTS=[
     "orientation": "Nie potwierdzono docelowego ustawienia salonu i bramy na tej działce.",
     "fitEvidence": "Odrzucony ze względu na program kondygnacji, niezależnie od dopasowania obrysu.",
     "adaptation": "Przeniesienie trzech sypialni na parter oznaczałoby nowy układ i większą bryłę.",
-    "verdict": "Zwarta bryła, ale sypialnie znajdują się na poddaszu. Odpada przy wymaganiu wszystkich pokoi na parterze.",
-    "costNote": "Model powierzchniowy tylko orientacyjny: ten projekt ma poddasze użytkowe."
+    "verdict": "Wcześniej analizowany projekt. Brak okapów niepotwierdzony · poddasze / antresola. Nie należy do aktualnej selekcji.",
+    "costNote": "Model powierzchniowy tylko orientacyjny: ten projekt ma poddasze użytkowe.",
+    "noEaves": false,
+    "groundFloor": false,
+    "archived": true,
+    "criteriaNote": "Brak okapów niepotwierdzony · poddasze / antresola",
+    "tags": ""
   }
 ];
