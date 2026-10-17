@@ -24,7 +24,7 @@ const PROJECTS=[
     "areaNote": "133.13 m² mieszkalnej + 4.68 m² kotłowni; garaż osobno",
     "dimensionNote": "Gabaryty odczytane z oficjalnego rzutu / obrysu; nie obliczane przez odjęcie od minimalnej działki.",
     "orientation": "Wariant lustrzany daje możliwość skierowania narożnego salonu ku WNW i SSW, z garażem przy północno-wschodniej części domu. Wymaga pełnego wrysowania i sprawdzenia toru samochodu.",
-    "adaptation": "Najpierw potwierdzić dopuszczalność płaskiego dachu nad garażem w tym MPZP. Zmiana tej części dachu, stropu, płyty lub technologii IZODOM to adaptacja konstrukcyjna.",
+    "adaptation": "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności. Pozostaje adaptacja układu, konstrukcji i posadowienia do działki.",
     "pros": [
       "Trzy sypialnie i osobny gabinet na parterze.",
       "Garaż dwustanowiskowy.",
@@ -33,7 +33,7 @@ const PROJECTS=[
       "Salon + kuchnia 42,92 m²; gabinet 9,73 m²."
     ],
     "cons": [
-      "Płaski dach nad garażem: zgodność z MPZP niepotwierdzona.",
+      "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności.",
       "Strop żelbetowy zamiast preferowanego lekkiego sufitu.",
       "Kuchnia 9,10 m²; garaż 32,28 m² raczej kompaktowy dla dwóch dużych aut."
     ],
@@ -64,7 +64,7 @@ const PROJECTS=[
     "areaNote": "140 m² mieszkalnej + 4.28 m² kotłowni; garaż osobno",
     "dimensionNote": "Gabaryty odczytane z oficjalnego rzutu / obrysu; nie obliczane przez odjęcie od minimalnej działki.",
     "orientation": "Wariant lustrzany daje możliwość skierowania narożnego salonu ku WNW i SSW, z garażem przy północno-wschodniej części domu. Wymaga pełnego wrysowania i sprawdzenia toru samochodu.",
-    "adaptation": "Najpierw potwierdzić dopuszczalność płaskiego dachu nad garażem w tym MPZP. Zmiana tej części dachu, stropu, płyty lub technologii IZODOM to adaptacja konstrukcyjna.",
+    "adaptation": "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności. Pozostaje adaptacja układu, konstrukcji i posadowienia do działki.",
     "pros": [
       "Trzy sypialnie i osobny gabinet na parterze.",
       "Garaż dwustanowiskowy.",
@@ -74,7 +74,7 @@ const PROJECTS=[
     ],
     "cons": [
       "Autor oznacza projekt jako koncepcyjny / brak w magazynie; termin dokumentacji wymaga potwierdzenia.",
-      "Płaski dach nad garażem: zgodność z MPZP niepotwierdzona.",
+      "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności.",
       "Strop żelbetowy zamiast preferowanego lekkiego sufitu."
     ],
     "verdict": "Największa strefa dzienna wśród nowych wersji Mokki i apartament rodziców. Uwaga: projekt koncepcyjny, nie gotowa dokumentacja.",
@@ -104,7 +104,7 @@ const PROJECTS=[
     "areaNote": "110 m² mieszkalnej + 4.3 m² kotłowni; garaż osobno",
     "dimensionNote": "Gabaryty odczytane z oficjalnego rzutu / obrysu; nie obliczane przez odjęcie od minimalnej działki.",
     "orientation": "Wariant lustrzany daje możliwość skierowania narożnego salonu ku WNW i SSW, z garażem przy północno-wschodniej części domu. Wymaga pełnego wrysowania i sprawdzenia toru samochodu.",
-    "adaptation": "Najpierw potwierdzić dopuszczalność płaskiego dachu nad garażem w tym MPZP. Zmiana tej części dachu, stropu, płyty lub technologii IZODOM to adaptacja konstrukcyjna.",
+    "adaptation": "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności. Pozostaje adaptacja układu, konstrukcji i posadowienia do działki.",
     "pros": [
       "Trzy sypialnie i osobny gabinet na parterze.",
       "Garaż dwustanowiskowy.",
@@ -112,7 +112,7 @@ const PROJECTS=[
       "Niewielka zabudowa 183,35 m² zostawia więcej miejsca."
     ],
     "cons": [
-      "Płaski dach nad garażem: zgodność z MPZP niepotwierdzona.",
+      "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności.",
       "Strop żelbetowy zamiast preferowanego lekkiego sufitu.",
       "Gabinet tylko 6,88 m²; salon z kuchnią 39,79 m².",
       "Brak prywatnej łazienki i garderoby rodziców."
@@ -687,7 +687,7 @@ const PROJECTS=[
     "cons": [
       "Brakuje trzeciej sypialni przy zachowaniu osobnego gabinetu.",
       "Gabaryt 15,04 × 22,45 m obejmuje zadaszenia; trzeba sprawdzić sam obrys ścian i możliwe skrócenie tarasu.",
-      "Płaski dach garażu wymaga sprawdzenia zgodności z MPZP."
+      "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności."
     ],
     "status": "conditional",
     "program": "2 sypialnie + gabinet; brakuje 1 pokoju",
@@ -695,7 +695,7 @@ const PROJECTS=[
     "dimensionNote": "Oficjalne wymiary obejmują występy, garaż i zadaszenia; nie mylić z czystym obrysem ścian.",
     "orientation": "Nie potwierdzono docelowego ustawienia salonu i bramy na tej działce.",
     "fitEvidence": "Nie wykonano dokładnego nałożenia obrysu ścian na wielobok działki. Wymiar 22,45 m obejmuje zadaszenia i nie jest dowodem niemożliwości ustawienia domu.",
-    "adaptation": "Potrzebne wydzielenie dodatkowej sypialni, analiza obrysu bez zadaszeń oraz ocena płaskiego dachu garażu w MPZP. Możliwości niewielkiej adaptacji nie potwierdzono.",
+    "adaptation": "§ 8 pkt 2 lit. b MPZP dopuszcza dowolny dach zabudowy pomocniczej (w tym garaży). Dla garażu przyłączonego do domu trzeba potwierdzić zastosowanie tego wyjątku; sam płaski dach nie przesądza o niezgodności. Pozostaje adaptacja układu, konstrukcji i posadowienia do działki.",
     "verdict": "Parterowy i bez okapów. Ma gabinet, ale tylko dwie sypialnie — do pełnego programu brakuje jednego pokoju. Dopasowanie obrysu pozostaje niepotwierdzone.",
     "noEaves": true,
     "groundFloor": true,
