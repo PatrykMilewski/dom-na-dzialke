@@ -677,7 +677,7 @@ const PROJECTS=[
     "area": 121.68,
     "garageArea": 38.68,
     "garage": 2,
-    "roof": "40°",
+    "roof": "40° · dwuspadowy + płaski nad garażem",
     "structure": "Strop: żelbetowy wylewany; alternatywnie wiązary Inter-Lers.",
     "pros": [
       "Wyraźna forma stodoły",
@@ -685,23 +685,24 @@ const PROJECTS=[
       "Duże przeszklenia"
     ],
     "cons": [
-      "Długość 22,45 m",
-      "Brak osobnego gabinetu",
-      "Płaski dach nad garażem"
+      "Brakuje trzeciej sypialni przy zachowaniu osobnego gabinetu.",
+      "Gabaryt 15,04 × 22,45 m obejmuje zadaszenia; trzeba sprawdzić sam obrys ścian i możliwe skrócenie tarasu.",
+      "Płaski dach garażu wymaga sprawdzenia zgodności z MPZP."
     ],
-    "status": "reject",
-    "program": "salon + 3 sypialnie; bez gabinetu",
-    "areaNote": "powierzchnia użytkowa katalogowa poza garażem; pełny zakres techniczny do potwierdzenia",
+    "status": "conditional",
+    "program": "2 sypialnie + gabinet; brakuje 1 pokoju",
+    "areaNote": "121,68 m² obejmuje kotłownię/pralnię 5,59 m²; garaż 38,68 m² osobno",
     "dimensionNote": "Oficjalne wymiary obejmują występy, garaż i zadaszenia; nie mylić z czystym obrysem ścian.",
     "orientation": "Nie potwierdzono docelowego ustawienia salonu i bramy na tej działce.",
-    "fitEvidence": "Wymiar 22,45 m obejmuje elementy wystające i zadaszenia. Nie dowodzi sam w sobie kolizji ścian; projekt odrzucony z krótkiej listy także za brak gabinetu i płaski dach.",
-    "adaptation": "Potrzebna ocena płaskiego dachu garażu w MPZP i dużych zmian programu; nie rekomendujemy jako prostego dopasowania.",
-    "verdict": "Wcześniej analizowany projekt. Bez okapów · parterowy. Nie należy do aktualnej selekcji.",
+    "fitEvidence": "Nie wykonano dokładnego nałożenia obrysu ścian na wielobok działki. Wymiar 22,45 m obejmuje zadaszenia i nie jest dowodem niemożliwości ustawienia domu.",
+    "adaptation": "Potrzebne wydzielenie dodatkowej sypialni, analiza obrysu bez zadaszeń oraz ocena płaskiego dachu garażu w MPZP. Możliwości niewielkiej adaptacji nie potwierdzono.",
+    "verdict": "Parterowy i bez okapów. Ma gabinet, ale tylko dwie sypialnie — do pełnego programu brakuje jednego pokoju. Dopasowanie obrysu pozostaje niepotwierdzone.",
     "noEaves": true,
     "groundFloor": true,
-    "archived": true,
+    "archived": false,
     "criteriaNote": "Bez okapów · parterowy",
-    "tags": ""
+    "tags": "",
+    "floor": "https://homekoncept.com.pl/wp-content/uploads/2026/02/HK-117-G2-KONCEPCJA-PARTER.jpg"
   },
   {
     "id": "kari",
