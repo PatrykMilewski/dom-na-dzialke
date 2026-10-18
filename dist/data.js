@@ -42,7 +42,8 @@ const PROJECTS=[
     "garageAdapt": true,
     "proposedGarageArea": 32,
     "combinedDimensions": "16 × 16,5 m",
-    "combinedFootprint": 200.5
+    "combinedFootprint": 200.5,
+    "terraceNote": "Wyjście na WNW możliwe przez istniejące drzwi kuchni po odpowiednim odbiciu. Katalogowy główny taras wypada wtedy na SSW — trzeba przenieść go na zachód. Bezpośrednie wyjście z salonu wymaga sprawdzenia stolarki."
   },
   {
     "id": "kos43",
@@ -78,7 +79,7 @@ const PROJECTS=[
     "orientation": "Ustawienie salonu na WNW/SSW przenosi proponowany garaż na stronę północno-zachodnią. Wjazd z NE wymaga około 10–15 m przejazdu wzdłuż północnego przedpola, z kontrolą manewrów. Samo odbicie nie rozwiązuje jednocześnie salonu i garażu przy wjeździe.",
     "fitEvidence": "Cały prostokąt obejmujący dom i koncepcyjny garaż mieści się w konserwatywnej obwiedni działki: 17 × 15,4 m. To test gabarytu, bez potwierdzenia wjazdu, okien i pełnego zagospodarowania.",
     "adaptation": "G2 przy frontowym pasie pomieszczeń pomocniczych. Wymaga projektu połączenia konstrukcji i dachów, wejścia, okien oraz oddzielenia garażu. Kwalifikację dachu garażu według § 8 pkt 2 lit. b MPZP potwierdza architekt.",
-    "verdict": "Nowy kandydat do zaprojektowania garażu G2. Wymaga rozwiązania połączenia domu i garażu.",
+    "verdict": "Warto sprawdzić ze względu na istniejący taras szczytowy, który można skierować na ogród WNW. Garaż pozostaje istotną adaptacją.",
     "noEaves": true,
     "groundFloor": true,
     "archived": false,
@@ -87,7 +88,8 @@ const PROJECTS=[
     "garageAdapt": true,
     "proposedGarageArea": 32,
     "combinedDimensions": "17 × 15,4 m",
-    "combinedFootprint": 193.68
+    "combinedFootprint": 193.68,
+    "terraceNote": "Dobry trop tarasowy: po obrocie rzutu o 180° istniejący taras przy ścianie szczytowej trafia na WNW. Południowe przeszklenia doświetlają wnętrze. Garaż pozostaje trudniejszy do obsługi od wjazdu NE."
   },
   {
     "id": "kos44",
@@ -121,7 +123,7 @@ const PROJECTS=[
     "orientation": "Ustawienie salonu na WNW/SSW przenosi proponowany garaż na stronę północno-zachodnią. Wjazd z NE wymaga około 10–15 m przejazdu wzdłuż północnego przedpola, z kontrolą manewrów. Samo odbicie nie rozwiązuje jednocześnie salonu i garażu przy wjeździe.",
     "fitEvidence": "Cały prostokąt obejmujący dom i koncepcyjny garaż mieści się w konserwatywnej obwiedni działki: 16,35 × 15,7 m. To test gabarytu, bez potwierdzenia wjazdu, okien i pełnego zagospodarowania.",
     "adaptation": "G2 przy frontowym pasie pomieszczeń pomocniczych. Wymaga projektu połączenia konstrukcji i dachów, wejścia, okien oraz oddzielenia garażu. Kwalifikację dachu garażu według § 8 pkt 2 lit. b MPZP potwierdza architekt.",
-    "verdict": "Nowy kandydat do zaprojektowania garażu G2. Wymaga rozwiązania połączenia domu i garażu.",
+    "verdict": "Warto sprawdzić ze względu na istniejący taras szczytowy, który można skierować na ogród WNW. Garaż pozostaje istotną adaptacją.",
     "noEaves": true,
     "groundFloor": true,
     "archived": false,
@@ -130,7 +132,8 @@ const PROJECTS=[
     "garageAdapt": true,
     "proposedGarageArea": 32,
     "combinedDimensions": "16,35 × 15,7 m",
-    "combinedFootprint": 202.9
+    "combinedFootprint": 202.9,
+    "terraceNote": "Dobry trop tarasowy: po obrocie o 180° istniejący taras/pergola przy szczycie otwiera się na WNW. Południe służy doświetleniu. Do rozwiązania pozostają dojazd i kolizja garażu z kuchnią."
   },
   {
     "id": "z577",
@@ -183,7 +186,8 @@ const PROJECTS=[
     "garageAdapt": true,
     "proposedGarageArea": 32,
     "combinedDimensions": "18,6 × 16,1 m",
-    "combinedFootprint": 211.76
+    "combinedFootprint": 211.76,
+    "terraceNote": "Słabe dopasowanie do zachodniego tarasu: salon w środku elewacji, bez bocznego wyjścia na ogród WNW. Potrzebne zmiany układu, nie samo lustro."
   },
   {
     "id": "abelia2modern",
@@ -223,7 +227,8 @@ const PROJECTS=[
       "Kuchnia 9,10 m²; garaż 32,28 m² raczej kompaktowy dla dwóch dużych aut."
     ],
     "verdict": "Nowy mocny kandydat funkcjonalny: gabinet 9,73 m², łazienka i garderoba rodziców. Obrys mieści się; warunek to dach garażu.",
-    "fitEvidence": "Test pełnego prostokąta 18,45 × 14,35 m: znaleziono położenie z minimalnym zapasem ok. 0,39 m do obwiedni. Nie sprawdza to bramy i zgodności dachu."
+    "fitEvidence": "Test pełnego prostokąta 18,45 × 14,35 m: znaleziono położenie z minimalnym zapasem ok. 0,39 m do obwiedni. Nie sprawdza to bramy i zgodności dachu.",
+    "terraceNote": "Katalogowy taras po ustawieniu salonu na południe wypada na SSW. Zachodnie przeszklenie nie potwierdza drzwi tarasowych; wymagane rozwiązanie wyjścia i tarasu WNW. Nie traktujemy południowego tarasu jako zalety."
   },
   {
     "id": "mokka18modernplus2",
@@ -263,7 +268,8 @@ const PROJECTS=[
       "Strop żelbetowy zamiast preferowanego lekkiego sufitu."
     ],
     "verdict": "Największa strefa dzienna wśród nowych wersji Mokki i apartament rodziców. Uwaga: projekt koncepcyjny, nie gotowa dokumentacja.",
-    "fitEvidence": "Test pełnego prostokąta 17,45 × 16,20 m: znaleziono położenie z minimalnym zapasem ok. 0,50 m do obwiedni. Osobno trzeba sprawdzić wjazd i dach."
+    "fitEvidence": "Test pełnego prostokąta 17,45 × 16,20 m: znaleziono położenie z minimalnym zapasem ok. 0,50 m do obwiedni. Osobno trzeba sprawdzić wjazd i dach.",
+    "terraceNote": "Katalogowy taras po ustawieniu salonu na południe wypada na SSW. Zachodnie przeszklenie nie potwierdza drzwi tarasowych; wymagane rozwiązanie wyjścia i tarasu WNW. Nie traktujemy południowego tarasu jako zalety."
   },
   {
     "id": "mokka18modern",
@@ -303,7 +309,8 @@ const PROJECTS=[
       "Brak prywatnej łazienki i garderoby rodziców."
     ],
     "verdict": "Kompaktowa parterówka bez okapów: pełny program i dwa auta. Dobry trop, jeśli zaakceptujesz mały gabinet i rozwiążesz kwestię dachu garażu.",
-    "fitEvidence": "Bryła 14,45 × 15,90 m jest mniejsza od wcześniej sprawdzonego prostokąta Mokki 15,65 × 15,90 m; mieści się w tej samej obwiedni. Dokładne ustawienie bramy wymaga projektu."
+    "fitEvidence": "Bryła 14,45 × 15,90 m jest mniejsza od wcześniej sprawdzonego prostokąta Mokki 15,65 × 15,90 m; mieści się w tej samej obwiedni. Dokładne ustawienie bramy wymaga projektu.",
+    "terraceNote": "Katalogowy taras po ustawieniu salonu na południe wypada na SSW. Zachodnie przeszklenie nie potwierdza drzwi tarasowych; wymagane rozwiązanie wyjścia i tarasu WNW. Nie traktujemy południowego tarasu jako zalety."
   },
   {
     "id": "bakopachg2e",
@@ -380,7 +387,8 @@ const PROJECTS=[
     "criteriaNote": "Bez okapów · wszystkie pokoje na parterze",
     "fitEvidence": "Nieregularny układ: podłużny dom i garaż odsunięty pod kątem prostym z zadaszonym przejściem. Bbox 19,10×17,70 wymaga testu faktycznej koperty. Nie potwierdzono dopasowania. Test prostokąta 19,10 × 17,70 m na siatce 5 cm nie znalazł ustawienia; nieregularny obrys może dać inny wynik.",
     "adaptation": "Wymagane wrysowanie pełnego obrysu, dojazdu i kierunków okien; zmiana stropu lub technologii wymaga konstruktora.",
-    "verdict": "Dach bez okapów także nad garażem i pełny program. Nieregularny układ wymaga dokładnego sprawdzenia na działce."
+    "verdict": "Dach bez okapów także nad garażem i pełny program. Nieregularny układ wymaga dokładnego sprawdzenia na działce.",
+    "terraceNote": "Główne wyjście i taras na WNW nie są jeszcze potwierdzone na rzucie. Sama możliwość południowego doświetlenia nie spełnia tego warunku."
   },
   {
     "id": "mini3g1",
@@ -478,8 +486,8 @@ const PROJECTS=[
     "garage": 2,
     "program": "3 sypialnie + gabinet",
     "roof": "30° · dwuspadowy",
-    "status": "fit",
-    "verdict": "Najbliżej oczekiwanej formy i lekkiej konstrukcji; ustawienie bramy i widok na ogród są głównym kompromisem.",
+    "status": "conditional",
+    "verdict": "Podwójna bryła i lekki sufit, lecz słabe dopasowanie do głównego tarasu WNW; wymaga zmiany ustawienia lub układu.",
     "pros": [
       "Duża strefa dzienna z kuchnią: około 49 m².",
       "Gabinet 7,62 m² i garaż dwustanowiskowy 37,19 m².",
@@ -501,7 +509,8 @@ const PROJECTS=[
     "noEaves": true,
     "groundFloor": true,
     "archived": false,
-    "criteriaNote": "Bez okapów · parterowy · ocena wizualizacji autora"
+    "criteriaNote": "Bez okapów · parterowy · ocena wizualizacji autora",
+    "terraceNote": "Słabsze dopasowanie: w sprawdzonym ustawieniu tarasy salonu wypadają na NNE/SSW, a skrzydło pokoi oddziela salon od WNW. Obrót na zachód nie ma potwierdzonego dopasowania do działki."
   },
   {
     "id": "mokka",
@@ -887,7 +896,8 @@ const PROJECTS=[
     "archived": false,
     "criteriaNote": "Bez okapów · parterowy",
     "tags": "",
-    "floor": "https://homekoncept.com.pl/wp-content/uploads/2026/02/HK-117-G2-KONCEPCJA-PARTER.jpg"
+    "floor": "https://homekoncept.com.pl/wp-content/uploads/2026/02/HK-117-G2-KONCEPCJA-PARTER.jpg",
+    "terraceNote": "Główne wyjście i taras na WNW nie są jeszcze potwierdzone na rzucie. Sama możliwość południowego doświetlenia nie spełnia tego warunku."
   },
   {
     "id": "kari",
@@ -964,5 +974,45 @@ const PROJECTS=[
     "archived": true,
     "criteriaNote": "Brak okapów niepotwierdzony · poddasze / antresola",
     "tags": ""
+  },
+  {
+    "id": "ar7p",
+    "name": "AR-7 P",
+    "studio": "TeA Projekt",
+    "url": "https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-7-p/",
+    "image": "https://teaprojekt.pl/wp-content/uploads/2023/03/ar-7-p-1200-2-80-n.jpg",
+    "floor": "https://teaprojekt.pl/wp-content/uploads/2024/02/AR-7-p-rzut-n.png",
+    "width": 12.9,
+    "depth": 18.55,
+    "footprint": 180.14,
+    "area": 117.19,
+    "areaNote": "117,19 m² części mieszkalnej + osobno garaż 27,51 m². Suma tabeli pomieszczeń różni się od nagłówka o 0,51 m²; potwierdzić u autora.",
+    "garage": 1,
+    "garageArea": 27.51,
+    "roof": "Dwa dachy dwuspadowe 40° + płaski łącznik",
+    "structure": "Wiązary drewniane, sufit mocowany do wiązarów; bez stropu żelbetowego",
+    "pros": [
+      "Dwie połączone stodoły i lekki sufit bez stropu żelbetowego.",
+      "Salon 34,29 m² + kuchnia 8,97 m².",
+      "Możliwe oddzielenie zachodniego tarasu od południowego doświetlenia."
+    ],
+    "cons": [
+      "Brak gabinetu; wydzielenie wymaga przeprojektowania i zabrania powierzchni istniejących pomieszczeń.",
+      "G1; poszerzenie do G2 i miejsce na podjazd nie zostały potwierdzone.",
+      "Bezokapowość do potwierdzenia u autora."
+    ],
+    "program": "3 sypialnie + salon; brak gabinetu",
+    "status": "conditional",
+    "noEaves": null,
+    "groundFloor": true,
+    "archived": true,
+    "criteriaNote": "Podwójna stodoła · parter · bezokapowość niepotwierdzona · brak gabinetu",
+    "dimensionNote": "Oficjalne wymiary ścian; po obrocie 18,55 × 12,90 m. Taras poza obrysem wymaga odrębnego sprawdzenia.",
+    "orientation": "Po obrocie o 90° zgodnie z zegarem: wyjście salonu na WNW, boczne okna SSW, garaż NE z bramą ESE. Dojazd z NE wymaga skrętu i sprawdzenia manewrowania.",
+    "fitEvidence": "Cały prostokąt 18,55 × 12,90 m mieści się w konserwatywnej obwiedni. Minimalny zapas do jej krawędzi około 0,34 m; nie jest to zapas do granicy działki. Brak potwierdzenia całego zagospodarowania i tarasu.",
+    "adaptation": "Wydzielenie gabinetu oraz powiększenie garażu to dodatkowe zmiany, których wykonalność i koszt nie są potwierdzone. Nie zaliczamy projektu do pełnych dopasowań.",
+    "verdict": "Najciekawszy nowy kompromis w formie podwójnej stodoły i kierunku tarasu. Brakuje gabinetu i G2; detal bez okapów wymaga potwierdzenia.",
+    "terraceNote": "Duże wyjście salonu można skierować na WNW, a boczne przeszklenie na SSW. Nie wymaga południowego tarasu; miejsce i dopuszczalność zachodniego tarasu sprawdza projektant.",
+    "tags": "podwójna stodoła zachodni taras"
   }
 ];
